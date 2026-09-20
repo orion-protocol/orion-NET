@@ -10,6 +10,31 @@ Orion:// is powered by hopes, dreams, and Python.
 
 ---
 
+## Using orion
+
+- **Starting the server**
+  One command:
+  ```dos
+  python orionsrv.py
+  ```
+  > Please note that this needs to have the pages directory in the same directory with .OTXT files.
+
+- **Testing Client Response**
+  One Command:
+  ```bash
+  python orionrd.py orion://localhost
+  ```
+  > Please note that this needs a local orion server running
+
+- **Browsing The orion page**
+  One Command:
+  ```bash
+  python orionbrz.py orion://localhost
+  ```
+  > Please note that this needs a local orion server running
+
+---
+
 ## ✨ Features
 
 - **Simple request format**  
