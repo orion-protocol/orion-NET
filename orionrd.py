@@ -15,7 +15,7 @@ def parse_uri(uri):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python orion_client.py orion://host/path")
+        print("Usage: python orionrd.py orion://host/path")
         return
 
     uri = sys.argv[1]

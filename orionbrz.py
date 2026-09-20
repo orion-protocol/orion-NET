@@ -59,7 +59,7 @@ def render_otxt(body: str) -> list[str]:
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python orion_browser.py orion://host/path")
+        print("Usage: python orionbrz.py orion://host/path")
         return
 
     current_uri = sys.argv[1]
@@ -80,6 +80,7 @@ def main():
                 continue
 
         links = render_otxt(body)
+        print(f"Current Url: {current_uri}")
         print("Commands: number = follow link, b = back, q = quit")
         cmd = input("> ").strip()
 
