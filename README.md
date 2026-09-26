@@ -154,9 +154,7 @@ Examples:
 
 ### Code block
 ```
-```
 print("Hello Orion")
-```
 ```
 
 OTXT is intentionally tiny — easy to parse, easy to write.
